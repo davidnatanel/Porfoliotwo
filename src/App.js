@@ -1,24 +1,31 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Aboutme from './pages/Aboutme';
+import Contactme from './pages/Contactme';
+import Home from './pages/Home';
+import Projects from './pages/Projects';
+import { link } from './utils/link';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main className="App">
+      <nav>
+        <ol>
+          {link.map((e) => {
+            return (
+              <li key={e.id}> <a href={e.link} >{e.text}</a> </li>
+
+            )
+          })}
+        </ol>
+      </nav>
+
+{/* <Home></Home> */}
+<Aboutme></Aboutme>
+<Projects></Projects>
+<Contactme></Contactme>     
+
+    </main>
   );
 }
 

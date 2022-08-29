@@ -61,6 +61,7 @@
     border: 1px white solid;
     color: white;
     padding: 10px;
+    resize: vertical;
 
 }
 .boxrigth form button{

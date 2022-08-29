@@ -62,7 +62,17 @@
     color: white;
     padding: 10px;
     resize: vertical;
+    max-height: 200px;
+    min-height: 200px;
 
+    
+
+}
+
+.text{
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
 }
 .boxrigth form button{
     background-color: red;

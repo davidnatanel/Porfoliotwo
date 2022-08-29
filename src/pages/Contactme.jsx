@@ -41,10 +41,11 @@ const Contactme = () => {
           <div className={styled.boxrigth}>
 
             <form onSubmit={handleSubmit}>
-              <label htmlFor="email">
+              <label className={styled.text} htmlFor="email">
                 Email Address
               </label>
               <input
+              required
                 id="email"
                 type="email"
                 name="email"
@@ -55,6 +56,8 @@ const Contactme = () => {
                 errors={state.errors}
               />
               <textarea
+              required
+
                 id="message"
                 name="message"
               />

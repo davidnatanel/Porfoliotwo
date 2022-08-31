@@ -3,9 +3,15 @@ import styled from '../css/Contactme.module.css'
 import github from '../assets/Logos/github.svg'
 import linkedin from '../assets/Logos/linkedin.svg'
 import { useForm, ValidationError } from '@formspree/react';
+import axios  from 'axios';
+import Swal from 'sweetalert2'
 
 const Contactme = () => {
+
+
   const [state, handleSubmit] = useForm("xbjblqgr");
+ 
+
 
 
 
@@ -23,15 +29,15 @@ const Contactme = () => {
 
           <div className={styled.boxleft}>
             <h1>Contact   <h1 style={{ display: 'inline', color: 'red', fontSize: '40PX' }}> me</h1></h1>
-            <p>  contact me
+            <p>  
               Thank you for coming this far, if you think I can add value to your team, do not hesitate to write me.
             </p>
 
             <div className={styled.ContainerDown}>
-              <a href="https://github.com/davidnatanel">
+              <a href="https://github.com/davidnatanel" target="_blank">
                 <img src={github} />
               </a >
-              <a href="https://www.linkedin.com/in/david-natanael-gomez/">
+              <a href="https://www.linkedin.com/in/david-natanael-gomez/" target="_blank">
 
                 <img src={linkedin} />
               </a >
@@ -45,6 +51,7 @@ const Contactme = () => {
                 Email Address
               </label>
               <input
+              placeholder='Email...'
               required
                 id="email"
                 type="email"
@@ -56,8 +63,10 @@ const Contactme = () => {
                 errors={state.errors}
               />
               <textarea
-              required
+              placeholder='Comment...'
 
+              required
+                
                 id="message"
                 name="message"
               />
@@ -66,7 +75,15 @@ const Contactme = () => {
                 field="message"
                 errors={state.errors}
               />
-              <button type="submit" disabled={state.submitting}>
+              <button type="submit" onClick={
+                ()=>{
+Swal.fire({
+  title: 'Send!',
+  text: 'Thanks for your comment',
+  icon: 'success',
+  confirmButtonText: 'OK'
+})}
+} disabled={state.submitting} >
                 Submit
               </button>
             </form>

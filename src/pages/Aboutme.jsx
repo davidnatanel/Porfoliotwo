@@ -13,6 +13,7 @@ import typescript from '../assets/Icons/typescript.svg';
 import css3 from '../assets/Icons/css3.svg';
 import html from '../assets/Icons/html.svg';
 import postgresql from '../assets/Icons/postgresql.svg';
+// import cv from /../public/DavidCV.pdf'
 var technology= [
     typescript,
     javascript,css3,
@@ -42,7 +43,7 @@ const Aboutme = () => {
     </p>
 
     <div className={Style.button}>
-    <a href="../public/David_CV.pdf" download>
+    <a href="../public/DavidCV.pdf" download      >
       My CV
     </a>
     </div>

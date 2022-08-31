@@ -5,7 +5,7 @@ import chatApp from '../assets/myProjects/Chat-App.png'
 export const ProjectsList=[
     {
       title:"Pokemon",
-      text:"It is an application where you can see the different Pokemon using the external pokeapi api and from it you can, among other things, Search for pokemons Filter them Sort them Create new pokemons",
+      text:"It is an application where you can see the different Pokemon using the external pokeapi api and from it you can, among other things, Search for pokemons Filter them Sort them Create new pokemons.",
       img:Pi,
       link:"https://pi-pokemon-lemkjkzz5-davidnatanaelgomez2-gmailcom.vercel.app/",
       git:"https://github.com/davidnatanel/PI-Pokemon",
@@ -13,7 +13,7 @@ export const ProjectsList=[
     },
     {
       title:"SoundWave", 
-      text:"It is an application where you can see the different Pokemon using the external pokeapi api and from it you can, among other things, Search pokemonsFilter them Sort them Create new pokemons",
+      text:"It is an app to develop a free access music streaming service, where any user registered as an artist can share their music and be able to receive donations from their followers to boost their career.",
       img:Soundwave,
       git:"https://github.com/SoundWavePF",
       link:"https://soundwave-swart.vercel.app/",

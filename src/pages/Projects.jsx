@@ -24,10 +24,10 @@ return(
   <div className={styled.carsmedium}>
     <h1>{e.title}</h1>
     <p>{e.text}</p>
-    <a href={e.link}>
+    <a href={e.link} target="_blank">
     <img style={{marginTop:'10px',marginLeft:'10px',color:'white', width:'50px', height:'60px'}} src={link} alt="" />
     </a>
-    <a href={e.git}>
+    <a href={e.git} target="_blank">
     <img style={{marginTop:'10px',marginLeft:'10px',color:'white', width:'50px', height:'60px'}} src={git} alt="" />
     </a>
   </div>

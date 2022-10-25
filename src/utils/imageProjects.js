@@ -25,7 +25,7 @@ export const ProjectsList=[
       text:"It is an application create a realtime chat app with react, node.js and socket.io with mongodb and express. The chat app is also responsive and it is styled with the styled components.",
       img:chatApp,
       git:"https://github.com/chat-app-MERN/Server",
-      link:"https://chat-app-mern-eight.vercel.app/login",
+      link:"https://clientchatmern.vercel.app/",
       technology:[ {name:"React",color:"blue"} ,{name:"NodeJs",color:"green"} ,{name:"socket.io",color:"black"},{name:"mongoDB",color:"green"} ]
   
     }

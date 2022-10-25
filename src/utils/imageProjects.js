@@ -3,15 +3,15 @@ import Soundwave from '../assets/myProjects/Soundwave.png'
 import chatApp from '../assets/myProjects/Chat-App.png'
 
 export const ProjectsList=[
-    {
-      title:"Pokemon",
-      texten:"It is an application where you can see the different Pokemon using the external pokeapi api and from it you can, among other things, Search for pokemons Filter them Sort them Create new pokemons.",
-      textes:"Es trata de una aplicación donde puedes ver los diferentes Pokémon utilizando la api pokeapi externa y desde ella puedes, entre otras cosas, Buscar pokemons Filtrarlos Ordenarlos Crear nuevos pokemons.",
-      img:Pi,
-      link:"https://pi-pokemon-lemkjkzz5-davidnatanaelgomez2-gmailcom.vercel.app/",
-      git:"https://github.com/davidnatanel/PI-Pokemon",
-      technology:[ {name:"Redux",color:"lightblue"} ,{name:"Express",color:"black"} ,{name:"Sequelize",color:"lightblue"} ,{name:"Postgres",color:"blue"}]
-    },
+    // {
+    //   title:"Pokemon",
+    //   texten:"It is an application where you can see the different Pokemon using the external pokeapi api and from it you can, among other things, Search for pokemons Filter them Sort them Create new pokemons.",
+    //   textes:"Es trata de una aplicación donde puedes ver los diferentes Pokémon utilizando la api pokeapi externa y desde ella puedes, entre otras cosas, Buscar pokemons Filtrarlos Ordenarlos Crear nuevos pokemons.",
+    //   img:Pi,
+    //   link:"https://pi-pokemon-lemkjkzz5-davidnatanaelgomez2-gmailcom.vercel.app/",
+    //   git:"https://github.com/davidnatanel/PI-Pokemon",
+    //   technology:[ {name:"Redux",color:"lightblue"} ,{name:"Express",color:"black"} ,{name:"Sequelize",color:"lightblue"} ,{name:"Postgres",color:"blue"}]
+    // },
     {
       title:"SoundWave", 
       texten:"It is an app to develop a free access music streaming service, where any user registered as an artist can share their music and be able to receive donations from their followers to boost their career.",

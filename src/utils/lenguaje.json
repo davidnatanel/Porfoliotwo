@@ -1,0 +1,32 @@
+{
+    "es": {
+        "lenguajeEs": "Español",
+        "lenguajeEn": "Ingles",
+        "aboutMeh1": "Hola, soy ",
+        "aboutMep": "intelectualmente curioso, apasionado por la tecnología y el desarrollo en general, soy una persona muy predispuesta a estar en continuo aprendizaje, buscando superarme en cada instancia, Me encantan los nuevos desafíos, tanto de manera individual como grupal. soy muy autodidacta, lo que me ha llevado a mejorar la habilidad de poder desenvolverme de forma rápida en algo nuevo, y poder resolver cualquier tipo de problemas que se me presenten.",
+        "aboutMea":"Mi CV",
+
+
+        "boxLefth1":"Contácta",
+        "boxLeftp":"Gracias por llegar hasta aquí, si crees que puedo aportar valor a tu equipo, no dudes en escribirme.",
+        "boxRigthEmail":"Direcion de Email",
+        "boxRigthComment":"Comentar",
+        "boxRigthSubmit":"Enviar"
+
+
+    },
+    "en": {
+        "lenguajeEs": "Spain",
+        "lenguajeEn": "English",
+        "aboutMeh1": "I'am ",
+        "aboutMep": "intellectually curious, passionate about technology and development in general, I am a person very predisposed to be in continuous learning, seeking to improve myself in each instance, I love new challenges, both individually and in groups. I am very self-taught, which has led me to improve the ability to quickly get involved in something new, and to be able to solve any type of problem that comes my way.",
+        "aboutMea":"My CV",
+        "boxLefth1":"Contact ",
+        "boxLeftp":"Thank you for coming this far, if you think I can add value to your team, do not hesitate to write me.",
+        "boxRigthEmail":"Email Address",
+        "boxRigthComment":"Comment...",
+        "boxRigthSubmit":"Submit"
+      
+
+    }
+}

@@ -6,7 +6,7 @@ import { useForm, ValidationError } from '@formspree/react';
 import axios  from 'axios';
 import Swal from 'sweetalert2'
 
-const Contactme = () => {
+const Contactme = ({lenguaje,selectLenguaje}) => {
 
 
   const [state, handleSubmit] = useForm("xbjblqgr");
@@ -28,9 +28,13 @@ const Contactme = () => {
         <div className={styled.box}>
 
           <div className={styled.boxleft}>
-            <h1>Contact   <h1 style={{ display: 'inline', color: 'red', fontSize: '40PX' }}> me</h1></h1>
+            <h1 >{lenguaje[selectLenguaje].boxLefth1}
+         {   selectLenguaje == 'en'?
+            <h1 style={{ display: 'inline', color: 'red', fontSize: '40PX', marginLeft:'5px' }}>me</h1>
+            :<p className={styled.letter}>me</p>}
+            </h1>
             <p>  
-              Thank you for coming this far, if you think I can add value to your team, do not hesitate to write me.
+            {lenguaje[selectLenguaje].boxLeftp}
             </p>
 
             <div className={styled.ContainerDown}>
@@ -48,7 +52,7 @@ const Contactme = () => {
 
             <form onSubmit={handleSubmit}>
               <label className={styled.text} htmlFor="email">
-                Email Address
+              {lenguaje[selectLenguaje].boxRigthEmail}
               </label>
               <input
               placeholder='Email...'
@@ -63,7 +67,7 @@ const Contactme = () => {
                 errors={state.errors}
               />
               <textarea
-              placeholder='Comment...'
+              placeholder={lenguaje[selectLenguaje].boxRigthComment}
 
               required
                 
@@ -84,7 +88,7 @@ Swal.fire({
   confirmButtonText: 'OK'
 })}
 } disabled={state.submitting} >
-                Submit
+                {lenguaje[selectLenguaje].boxRigthSubmit}
               </button>
             </form>
           </div>

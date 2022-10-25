@@ -5,7 +5,7 @@ import git from '../assets/Logos/git.svg'
 import link from '../assets/Logos/link.svg'
 
 
-const Projects = () => {
+const Projects = ({lenguaje,selectLenguaje}) => {
     return (
         <div className={styled.projects} id='Projects'>
 
@@ -23,7 +23,7 @@ return(
   </div>
   <div className={styled.carsmedium}>
     <h1>{e.title}</h1>
-    <p>{e.text}</p>
+    <p>{ selectLenguaje == 'es'? e.textes:e.texten}</p>
     <a href={e.link} target="_blank">
     <img style={{marginTop:'10px',marginLeft:'10px',color:'white', width:'50px', height:'60px'}} src={link} alt="" />
     </a>

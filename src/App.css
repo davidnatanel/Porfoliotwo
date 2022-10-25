@@ -7,11 +7,40 @@ nav{
   width:100%;
   padding-right: 100px;
   z-index: 1000;
+  display: flex;
 
+  justify-content: space-between;
 
   
 }
+nav div{
+  width:30% ;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 40px;
+}
+nav div button{
+  background-color: rgb(71, 66, 66);
+  border: none;
+  padding: 3%;
+  border-radius: 10px;
+  color:white;
+  font-size: larger;
+  font-weight: bolder;
+
+}
+nav div button:hover {
+  cursor: pointer;
+  background-color: rgba(138, 138, 129, 0.418);
+}
+nav div button:active{
+  background-color: red;
+}
 nav ol{
+  width:60% ;
+ 
   height: 100%;
   display: flex;
   justify-content: flex-end;
@@ -27,7 +56,7 @@ list-style: none;
 }
 
 nav a:link,nav a:visited,nav a:active {
-  background-color: rgba(75, 75, 65, 0.418);
+  background-color: red;
   padding: 10px;
   border-radius: 10px;
   text-decoration:none;
@@ -38,9 +67,9 @@ nav a:link,nav a:visited,nav a:active {
 }
 nav a:hover{
   
-  background-color: rgba(138, 138, 129, 0.418);
+  background-color: rgba(161, 46, 46, 0.418);
 
 }
 nav a:active{
-  background-color: red;
+  background-color: rgb(194, 60, 60);
 }

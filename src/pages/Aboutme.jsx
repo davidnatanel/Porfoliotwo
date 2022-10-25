@@ -27,7 +27,7 @@ var technology= [
     reactNative,
     react
     ]
-const Aboutme = () => {
+const Aboutme = ({lenguaje,selectLenguaje}) => {
     return (
         <div className={Style.aboutme} id='Aboutme'>
             
@@ -36,15 +36,15 @@ const Aboutme = () => {
 
         <div className={Style.box}>
             <div  className={Style.boxleft}>
-    <h1>  I'am <h1 style={{display :'inline', color:'red',fontSize:'40PX'}}> David</h1>
+    <h1>  {lenguaje[selectLenguaje].aboutMeh1} <h1 style={{display :'inline', color:'red',fontSize:'40PX'}}> David👋</h1>
     </h1>
     <p>
-    intellectually curious, passionate about technology and development in general, I am a person very predisposed to be in continuous learning, seeking to improve myself in each instance, I love new challenges, both individually and in groups. I am very self-taught, which has led me to improve the ability to quickly get involved in something new, and to be able to solve any type of problem that comes my way.
+    {lenguaje[selectLenguaje].aboutMep} 
     </p>
 
     <div className={Style.button}>
     <a href="../public/DavidCV.pdf" download      >
-      My CV
+    {lenguaje[selectLenguaje].aboutMea} 
     </a>
     </div>
 <div className={Style.image} >

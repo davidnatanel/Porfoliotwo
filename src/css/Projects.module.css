@@ -69,11 +69,11 @@
 
     padding-left:10px ;
     text-align: start;
-    font-size:1.1em;
+    font-size:1em;
 }
 .carsdown{
     width: 100%;
-    height: 15%;
+    height: 25%;
     display: flex;
     flex-wrap: wrap;
     column-gap: 10px;

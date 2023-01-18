@@ -2,6 +2,7 @@ import Pi from '../assets/myProjects/Pokemon.png'
 import Soundwave from '../assets/myProjects/Soundwave.png'
 import chatApp from '../assets/myProjects/Chat-App.png'
 import TraileMania from '../assets/myProjects/TraileMania.png'
+import NoteApp from '../assets/myProjects/NoteApp.png'
 
 export const ProjectsList = [
   {
@@ -43,5 +44,14 @@ export const ProjectsList = [
     technology: [{ name: "React", color: "blue" }]
 
   },
+  {
+    title: "NoteApp",
+    texten: "It is an app to write notes made in react js.",
+    textes: "Es una app para escribir notas, la app esta creada con react.js.",
+    img: NoteApp,
+    git: "https://github.com/davidnatanel/notesapp",
+    link: "https://notesapp-sand.vercel.app/",
+    technology: [{ name: "React", color: "blue" }]
 
+  },
 ]

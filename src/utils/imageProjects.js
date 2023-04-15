@@ -3,6 +3,9 @@ import Soundwave from '../assets/myProjects/Soundwave.png'
 import chatApp from '../assets/myProjects/Chat-App.png'
 import TraileMania from '../assets/myProjects/TraileMania.png'
 import NoteApp from '../assets/myProjects/NoteApp.png'
+import MegaShop from '../assets/myProjects/MegaShop.png'
+
+
 
 export const ProjectsList = [
   {
@@ -36,8 +39,8 @@ export const ProjectsList = [
   },
   {
     title: "TraileMania",
-    texten: "It is an app to see both old and newly released movie trailers, this app is with react js.",
-    textes: "Es una app para ver tanto trailes de peliculas antiguos como recien estrenados, esta app esta con react js.",
+    texten: "My app displays movie trailers with an appealing interface, API-powered previews, favorites, details, and intuitive pagination. Showcasing my skills in web development, APIs, data manipulation, and user experience in the entertainment industry.",
+    textes: "Mi app muestra trailers de películas con una interfaz atractiva, API para avances, favoritos, detalles y navegación intuitiva con paginación. Destaca mis habilidades en desarrollo web, APIs, manipulación de datos y experiencia del usuario en el entretenimiento.",
     img: TraileMania,
     git: "https://github.com/davidnatanel/TraileMania",
     link: "https://traile-mania.vercel.app",
@@ -46,12 +49,22 @@ export const ProjectsList = [
   },
   {
     title: "NoteApp",
-    texten: "It is an app to write notes made in react js.",
-    textes: "Es una app para escribir notas, la app esta creada con react.js.",
+    texten: "My application is a note-taking app with features for creating, editing, deleting, and searching notes by title, along with a dark mode. With an intuitive interface and essential functionalities, it showcases my skills in developing interactive web applications.",
+    textes: "Mi aplicación es una aplicación de notas con funciones de creación, edición, borrado y búsqueda por título, además de un modo oscuro. Con una interfaz intuitiva y características esenciales, demuestra mi habilidad en el desarrollo de aplicaciones web interactivas.",
     img: NoteApp,
     git: "https://github.com/davidnatanel/notesapp",
     link: "https://notesapp-sand.vercel.app/",
     technology: [{ name: "React", color: "blue" }]
 
   },
+  {
+    title: "MegaShop",
+    texten: "My application is a simple online store developed in React, featuring pagination, product filters, search functionality, and favorites and shopping cart features. Modern design and intuitive functionality shine in this application, showcasing my web development skills with React.",
+    textes: "Mi aplicación es una tienda en línea simple desarrollada en React, con paginación, filtros de productos, búsqueda, y funciones de favoritos y carrito. Diseño moderno y funcionalidad intuitiva destacan en esta aplicación que muestra mis habilidades en desarrollo web con Reac.",
+    img: MegaShop,
+    git: "https://github.com/davidnatanel/MegaStore",
+    link: "https://mega-store-ashy.vercel.app/",
+    technology: [{ name: "React", color: "blue" }]
+
+  }
 ]
